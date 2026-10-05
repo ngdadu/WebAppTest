@@ -10,7 +10,7 @@ namespace WebAppTest.Controllers
         [HttpGet(Name = "count2")]
         public async Task<int> CountFiles()
         {
-            return await Task.FromResult(3);
+            return await Task.FromResult(5);
         }
     }
 }
