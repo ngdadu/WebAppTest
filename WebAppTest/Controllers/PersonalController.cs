@@ -7,7 +7,7 @@ namespace WebAppTest.Controllers
     [ApiController]
     public class PersonalController : ControllerBase
     {
-        [HttpGet(Name = "count")]
+        [HttpGet(Name = "count2")]
         public async Task<int> CountFiles()
         {
             return await Task.FromResult(3);
